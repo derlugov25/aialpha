@@ -84,9 +84,10 @@ body {
   border-bottom: 1px solid var(--border);
 }
 .hero-inner { padding: 72px 0 48px; }
+.hero-content { text-align: center; }
 .hero-title { font-size: 44px; line-height: 1.1; margin: 0 0 12px; letter-spacing: -0.02em; overflow-wrap: anywhere; }
 .hero-subtitle { margin: 0 0 24px; color: var(--text-soft); font-size: 18px; }
-.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
 
 /* Sections */
 .section { padding: 56px 0; }
