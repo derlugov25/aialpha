@@ -45,7 +45,7 @@ body {
   justify-content: space-between;
   height: 100px;
 }
-.brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+.brand { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: inherit; }
 .brand-logo { height: 56px; width: auto; display: block; }
 .brand-name { font-weight: 700; letter-spacing: 0.2px; font-size: 22px; }
 
@@ -118,6 +118,17 @@ body {
   .brand-logo { height: 68px; }
   .brand-name { font-size: 26px; }
   /* feed layout remains single column for readability */
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .header-inner { height: 92px; }
+  .brand { gap: 4px; }
+  .brand-logo { height: 52px; }
+  .brand-name { font-size: 21px; }
+  .nav { gap: 12px; }
+  .hero-title { font-size: 34px; }
+  .hero-subtitle { font-size: 16px; }
 }
 
 /* Footer */
