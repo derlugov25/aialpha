@@ -157,4 +157,6 @@ body {
 .footer-link { color: var(--text-soft); text-decoration: none; }
 .footer-link:hover { color: var(--text); }
 
+.more-cta { display: flex; justify-content: center; padding: 24px 0 8px; }
+
 
