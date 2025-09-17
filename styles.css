@@ -136,6 +136,7 @@ body {
   .hero-inner { padding: 64px 0 40px; }
   .hero-title { font-size: 30px; }
   .hero-subtitle { font-size: 15px; }
+  .card-image { width: 100%; margin: 8px 0 12px; }
 }
 
 /* Footer */
