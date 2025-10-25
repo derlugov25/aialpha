@@ -113,7 +113,7 @@ body {
 .card-text { margin: 0 0 12px; color: var(--text-soft); line-height: 1.6; }
 .card-list { margin: 0 0 12px 18px; color: var(--text-soft); }
 .card-list li { margin-bottom: 6px; }
-.card-actions { display: flex; justify-content: flex-start; }
+.card-actions { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
 .card-link { text-decoration: none; font-weight: 600; color: var(--text); border-bottom: 1px solid var(--border); }
 .card-link:hover { border-color: var(--text); }
 .card-image { width: 92%; height: auto; border-radius: 10px; border: 1px solid var(--border); margin: 8px auto 12px; display: block; }
